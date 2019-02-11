@@ -1,0 +1,21 @@
+.create-vacancy-container {
+  max-width: 680px;
+  margin: 0 auto;
+  margin-top: 20px;  
+}
+
+.create-form-button {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.create-form-button[disabled], .create-form-button[disabled]:hover, .create-form-button[disabled]:focus {
+  opacity: 0.6;
+  color: #fff;
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+.create-form input {
+  margin-bottom: 3px;
+}
